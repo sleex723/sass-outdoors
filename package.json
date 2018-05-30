@@ -4,11 +4,14 @@
   "description": "Landing page for natours",
   "main": "index.html",
   "scripts": {
-    "start": "node-sass sass/main.scss css/style.css"
+    "start": "harp server --port $PORT",
+    "compile:sass": "node-sass sass/main.scss css/style.css"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "harp": "*"
+  },
   "devDependencies": {
     "node-sass": "^4.9.0"
   }
