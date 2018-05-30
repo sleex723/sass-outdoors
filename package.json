@@ -2,8 +2,9 @@
   "name": "natours",
   "version": "1.0.0",
   "description": "Landing page for natours",
-  "main": "index.php",
+  "main": "index.js",
   "scripts": {
+    "start": "node index.php",
     "compile:sass": "node-sass sass/main.scss css/style.css"
   },
   "author": "",
